@@ -4,6 +4,7 @@ var isStarted = false;
 // 开始摇签
 function start() {
     isStarted = true;
+    alert(11);
     $('.qiancover').hide();
     $('.decode').hide();
     $('.result').show();
